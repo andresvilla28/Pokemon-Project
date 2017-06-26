@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/cvItem">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_launcher_pocion"
+                android:id="@+id/iVitem" />
+
+            <TextView
+                android:text="TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tVitem"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/iVitem"
+                android:layout_toEndOf="@+id/iVitem"
+                android:layout_marginLeft="11dp"
+                android:layout_marginStart="11dp" />
+        </RelativeLayout>
+</android.support.v7.widget.CardView>
